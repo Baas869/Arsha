@@ -1,0 +1,114 @@
+.img-col,
+.clients-items--flex,
+.why-us--flex__col-2,
+.icon-box,
+.cta-flex--items,
+.team-flex--items
+{
+    transform: scale(50%);
+    transition: all 1s ease-in;
+}
+.img-col.show-zoom-in,
+.clients-items--flex.show-zoom-in,
+.why-us--flex__col-2.show-zoom-in,
+.icon-box.show-zoom-in,
+.cta-flex--items.show-zoom-in,
+.team-flex--items.show-zoom-in
+{
+    transform: scale(100%);
+}
+.skill-flex--img{
+    transform: translateX(-50%);
+    overflow-x: hidden;
+}
+.skills-flex--progresschats{
+    transform: translateX(50%);
+    overflow-x: hidden;
+}
+.skill-flex--img.show-zoom-in,
+.skills-flex--progresschats.show-zoom-in{
+    transform: translateX(0);
+}
+
+.my-3{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0 8rem;
+}
+.loading{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.loading-img{
+    width: 20px;
+    height: 20px;
+}
+.loading-img img{
+    width: 100%;
+}
+.error-message{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(241, 8, 8, 0.8);
+    color: #fff;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sent-message{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    background:rgba(32, 157, 216,0.8);
+    color: #fff;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    /* border: 2px solid #209dd8 ; */
+    font-weight: bold;
+    border-radius: 5px;
+}
+.progress-animi{
+    opacity: 0;
+    transform: translateX(-0%);
+    transition: all 0.5s ease-in;
+}
+.show-progress-animi{
+    opacity: 1;
+    transform: translateX(0)
+}
+
+
+.animi-zoom-in{
+    opacity: 0;
+    filter: blur(10%);
+    transition: all 1s ease-in;
+}
+.show-zoom-in{
+    opacity: 1;
+    filter: blur(0%);
+}
+
+.animi-slide-up{
+    opacity: 0;
+    /* filter: blur(5px); */
+    transform: translateY(50%);
+    transition: all 1s;
+}
+.show-slide--up{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+}

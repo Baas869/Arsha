@@ -1,0 +1,1628 @@
+/* Hero Section Tab */
+
+#hero{
+    /* width: 100%; */
+    height: 100vh;
+    background: #37517e;
+}
+.section-tab{
+    padding: 3.75rem 1rem;
+    padding-bottom: 4rem;
+    overflow: hidden;
+}
+#hero .container .row{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+.row:nth-child(1){
+    transform: translateY();
+}
+#hero .container{
+    height: 100%;
+}
+#hero .container .row > div:nth-child(1){
+    height: 55%;
+    /* width: 100%; */
+}
+#hero .container .row{
+    padding: 3rem 0.8rem 0rem 0.8rem;
+}
+#hero .container .row > div img{
+    height: 100%;
+    width: 100%;
+}
+#hero h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+#hero h2{
+    color: #A7A8BE;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.getstarted-tab{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.getstarted-tab .btn-getstarted{
+    font-size: 1rem;
+    font-weight: 500;
+    /* border: 2px solid #fff; */
+    background:#31A9E1;
+    border-radius: 50px;
+    padding: 10px 28px 11px 28px;
+}
+.getstarted-tab .btn-getstarted:hover{
+    background: #209DD8;
+}
+.getstarted-tab .btn-watchvideo{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 10px 11px 28px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+#hero .btn-watchvideo i{
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+    transition: all 0.3s;
+}
+.getstarted-tab .btn-watchvideo:hover i{
+    color: #209DD8;
+}
+.getstarted-tab--item{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* CLIENTS MOBILE SECTION TAB */
+#clients{
+    overflow: hidden;
+    background: #F3F5FA;
+}
+#clients .clients-items{
+    width: 100%;
+    padding: 3rem;
+}
+#clients .clients-items--flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#clients .clients-items--flex > div{
+    width: 50%;
+    padding: 0.8rem 2rem;
+    transition: all 0.4s ease-in-out;
+}
+#clients .clients-items--flex > div img{
+    width: 100%;
+    filter: grayscale(50);
+    transition: all 0.4s ease-in-out;
+}
+#clients .clients-items--flex > div:hover img{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+/* ABOUT US MOBILE SECTION TAB  */
+.section-title h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #37517e;
+    margin-bottom: 20px;
+    padding-bottom: 1.25rem;
+    position: relative;
+}
+.section-title h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.section-title h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.about-section--tab .about-flex--items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #444444;
+    line-height: 1.5;
+}
+#about .about-flex--items .about-first--row p{
+    margin-bottom: 1rem;
+}
+#about .about-flex--items ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+#about .about-flex--items ul li{
+    position: relative;
+    padding-left: 28px;
+}
+#about .about-flex--items ul li:not(:first-child){
+    margin-top: 10px;
+}
+#about .about-flex--items ul li i{
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #47b2e4;
+    line-height: 1;
+}
+#about .about-flex--items .about-second--row{
+    padding-top: 1.5rem;
+}
+#about .about-second--row .btn-learn--more{
+    font-family: "Poppins", sans-serif;
+    color: #47B2E4;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 32px;
+    border: 2px solid #47B2E4;
+    border-radius:4px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: all 0.3s;
+}
+#about .about-second--row .btn-learn--more:hover{
+    background: #47B2E4;
+    color: #fff;
+}
+ /* WHY US MOBILE SECTION TAB */
+ #why-us{
+    background: #F3F5FA;
+}
+#why-us .why-us--flex__items{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+#why-us .why-us--flex__col-1{
+    padding-right: 1rem;
+    height: 55%;
+}
+#why-us .why-us--flex__col-2 img{
+    width: 100%;
+}
+#why-us .why-us--flex__col-1 h3{
+    font-size: 2.125rem;
+    font-weight: 400;
+    color: #37517e;
+    padding-right: 0;
+}
+#why-us .why-us--flex__col-1 .content-info p{
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #848484;
+    margin-bottom: 1rem;
+    padding-right: 0;
+}
+.content-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+.content-items ul li{
+    background: #fff;
+    padding: 1.25rem;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.content-items ul li:not(:first-child){
+    margin-top: 0.9375rem;
+}
+.content-items ul li a{
+    color: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+    position: relative;
+    padding-right: 30px;
+    display: block;
+}
+.content-items ul li a i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    display: inline-block;
+}
+.content-items ul li a:hover,
+.content-items ul li a:active{
+    color: #47b2e4;
+    cursor: pointer;
+}
+.content-items ul li .btn-number{
+    color: #47b2e4;
+    font-size: 1.125rem; 
+    font-weight: 600;
+    padding-right: 0.625rem;
+}
+.content-items ul li div p{
+    line-height: 1.5;
+}
+.content-items ul li div {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+}
+
+.icon-close{
+    /* display: none; */
+    opacity: 0;
+}
+.icon-open{
+    opacity: 1 !important;
+}
+
+/* SKILLS MOBILE SECTION TAB  */
+#skills .skills-items .skills-flex--items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#skills .skills-flex--items div:first-child img{
+    width: 100%;
+}
+#skills .skills-flex--items .skills-flex--progresschats{
+    padding-top: 1.5rem;
+}
+#skills .skills-flex--items div:nth-child(2) h3{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #37517e;
+    margin-bottom: 0.825rem;
+}
+#skills .skills-flex--items div:nth-child(2) p{
+    font-size: 0.98rem;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+#skills .progress-items .progress{
+    height: 60px;
+    display: block;
+}
+#skills .progress-items .skill{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #37517e;
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+#skills .progress-items .skill .val{
+    float: right;
+    font-style: normal;
+}
+#skills .skills-flex--items div.progress-bar-wrap{
+    width: 100%;
+    height: 10px;
+    background: #e8edf5;
+}
+#skills .skills-flex--items div.progress-bar-wrap .progress-bar{
+    height: 10px;
+    background: #4668a2;
+    /* transform: translateX(1rem); */
+    transition: all 0.4s ease-in;
+}
+#skills .skills-flex--items div.progress-bar-wrap .progress-bar--100{
+    width: 100%;
+}
+#skills .skills-flex--items div.progress-bar-wrap .progress-bar--90{
+    width: 90%;
+}
+#skills .skills-flex--items div.progress-bar-wrap .progress-bar--75{
+    width: 75%;
+}
+#skills .skills-flex--items div.progress-bar-wrap .progress-bar--55{
+    width: 55%;
+}
+
+/* SERVICE SECTION TAB  */
+#services{
+    background: #F3F5FA;
+}
+#services .section-flex--items{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#services .section-title p{
+    text-align: center;
+    line-height: 1.5;
+}
+#services .section-flex--items > div{
+    margin-top: 1rem;
+}
+#services .section-flex--items > div p{
+    margin: 0;
+}
+.section-flex--items .icon-box{
+    padding: 3.125rem 1.875rem;
+    background: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1); 
+}
+.icon{
+    height: 2.5rem;
+    margin-bottom: 0.625rem;
+    width: 100%;
+}
+.icon i{
+    font-size: 36px;
+    color: #47b2e4;
+    transition: 0.3s;
+}
+.section-flex--items .icon-box a,
+.section-flex--items .icon-box h4{
+    color: #37517e;
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.9375rem;
+}
+.section-flex--items .icon-box p{
+    line-height: 24px;
+    font-size: 0.875rem;
+}
+
+/* CTA MOBILE SECTION TAB  */
+#cta{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../img/cta-bg.jpg) center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+#cta .cta-flex--items{
+    padding: 0 0.8rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+#cta .cta-flex--items .cta-flex--items__info h3{
+    text-align: center;
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#cta .cta-flex--items .cta-flex--items__info p{
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+}
+#cta .cta-flex--items .cta-flex--items__btn{
+    text-align: center;
+}
+#cta .cta-flex--items .cta-flex--items__btn a{
+    font-family: "Jost", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+#cta .cta-flex--items .cta-flex--items__btn a:hover,
+#cta .cta-flex--items .cta-flex--items__btn a:active{
+    background: #209DD8;
+    border: none;
+}
+
+/* PORTFOLIO MOBILE SECTION TAB  */
+#portfolio .section-title{
+    padding-bottom: 1.8rem;
+}
+#portfolio .section-title p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+#portfolio .portfolio-flters{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-delay: 100ms;
+}
+#portfolio .portfolio-flters li{
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0.6rem 0.31rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#portfolio .portfolio-flters li:hover,
+#portfolio .portfolio-flters li:active,
+#portfolio .portfolio-flters .filter-active{
+    background: #47b2e4;
+    color: #fff;
+}
+#portfolio .portfolio-container{
+   
+    height: 201rem;
+    display: flex;
+    flex-direction: column;
+}
+#portfolio .portfolio-container .portfolio-item{
+    position: relative;
+    z-index: 1;
+    height: auto;
+    margin-bottom: 1.87rem;
+    max-width: 23.875rem;
+    margin: auto;
+    overflow: hidden;
+}
+.portfolio-info{
+    /* opacity: 0; */
+    display: none;
+    position: absolute;
+    left: 3px;
+    bottom: 5px;
+    z-index: 3;
+    right: 3px;
+    transition: all 0.3s ease-out;
+    background: rgba(55, 81, 126, 0.8);
+    padding: 10px 15px;
+    color: #fff;
+}
+.portfolio-img{
+    overflow: hidden;
+}
+.portfolio-img img{
+    width: 100%;
+    transform: scale(1);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.portfolio-item:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+    /* transition: transform 0.6s cubic-bezier(0.61, 1, 0.88, 1); */
+    /* animation: zoom 0.5s linear alternate; */
+}
+.portfolio-item:hover div.portfolio-info{
+    display: block;
+}
+#portfolio .portfolio-container .portfolio-item .preview-link{
+    position: absolute;
+    right: 50px;
+    font-size: 22px;
+    color: #fff;
+    top: 15px;
+    transition: all 0.3s;
+}
+#portfolio .portfolio-container .portfolio-item .details-link{
+    position: absolute;
+    right: 10px;
+    font-size: 22px;
+    color: #fff;
+    top: 15px;
+    transition: 0.3s;
+}
+#portfolio .portfolio-container .portfolio-item a:hover{
+    color: #47b2e4;
+}
+
+/* TEAM MOBILE SECTION TAB  */
+#team{
+    background: #f3f5fa;
+}
+#team .section-title p{
+    line-height: 1.5;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+/* #team .team-section .team-flex .team-flex--items{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow: hidden;
+} */
+#team .team-section .team-flex .d-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 1.875rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#team .team-section .team-flex .d-flex:hover{
+    transform: translatey(-1rem);
+}
+#team .team-section .team-flex > div:not(:first-child){
+    margin-top: 24px;
+}
+#team .team-section .member-info h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #37517e;
+}
+#team .team-section .member-info span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+}
+#team .team-section .member-info span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+#team .team-section .member-info p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#team .team-section .member-info .social{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#team .team-section .member-info .social a{
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8;
+}
+#team .team-section .member-info .social a:hover,
+#team .team-section .member-info .social a:hover i{
+    background: #47b2e4;
+    color: #fff;
+}
+#team .team-section .member-info .social a i{
+    color: #37517e;
+    font-size: 16px;
+}
+#team .team-section .member-info .social a:not(:first-child){
+    margin-left: 8px;
+}
+.member-info{
+    padding-left: 1.875rem;
+}
+#team .team-section .team-flex .d-flex .pic{
+    width: 166px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#team .team-section .team-flex .d-flex .pic img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* PRICING MOBILE SECTION TAB  */
+#pricing .section-title p{
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+#pricing .pricing-section{
+    padding-top: 40px;
+}
+
+#pricing .pricing-section .pricing-box .box{
+    margin: 0 40px 30px 40px;
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    border-radius: 5px;
+}
+#pricing .pricing-section .pricing-box .featured{
+    border-top: 4px solid #47b2e4;
+}
+#pricing .pricing-section .box h3{
+    font-weight: 500;
+    margin-bottom: 0.95rem;
+    font-size: 1.25rem;
+    color: #37517e;
+}
+#pricing .pricing-section .box h4{
+    font-size: 3rem;
+    color: #37517e;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 1.56rem;
+}
+#pricing .pricing-section .box h4 sup{
+    font-size: 1.75rem;
+    position: relative;
+}
+#pricing .pricing-section .box h4 span{
+    color: #47b2e4;
+    font-size: 1.125rem;
+    display: block;
+}
+#pricing .pricing-section .box ul{
+    padding: 1.25rem 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+    line-height: 20px;
+}
+#pricing .pricing-section .box ul li{
+    padding: 0.5rem 0 0.5rem 1.875rem;
+    position: relative;
+}
+#pricing .pricing-section .box ul i{
+    color: #28a745;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 6px
+}
+#pricing .pricing-section .box ul .na i{
+    color: #ccc;
+}
+#pricing .pricing-section .box ul .na span{
+    text-decoration: line-through;
+}
+#pricing .pricing-section .pricing-box .buy-btn{
+    display: inline-block;
+    padding: 0.75rem 2.18rem;
+    border-radius: 50px;
+    color: #47b2e4;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+}
+#pricing .pricing-section .pricing-box .buy-btn:hover{
+    background: #47b2e4;
+    color: #fff;
+}
+
+/* FREQUENTLY ASKED QUESTION MOBILE SECTION TAB */
+#faq{
+    background: #f3f5fa;
+}
+#faq .section-title p{
+    line-height: 1.4;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1.875rem;
+}
+#faq .content-items a{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: block;
+    position: relative;
+    padding: 0 30px;
+    color: #37517e;
+    transition: 0.3s;
+}
+
+#faq .content-items a:hover{
+    color: #47b2e4;
+}
+#faq .content-items ul li {
+    position: relative;
+    max-width: 53.5rem;
+}
+
+.collapse{
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}.faq-container .collapse{
+    max-width: 59rem;
+    margin: auto;
+}
+.collapse li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.collapse li label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: block;
+    color: #37517e;
+    cursor: pointer;
+
+}
+.collapse li label:hover{
+    color: #47b2e4;
+}
+.collapse li label .span{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.icon-help{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    color: #47b2e4;
+}
+.collapse label + input[type="radio"]{
+    display: none;
+}
+.collapse .content{
+    padding: 0 10px;
+    line-height: 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+}
+.collapse label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+.collapse label + input[type="radio"]:checked .collapse label{
+    color: #47b2e4;
+}
+.collapse .content p{
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+/* CONTACT MOBILE SECTION TAB  */
+#contact .section-title p{
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 1.9rem;
+}
+
+#contact .contact-items .info{
+    padding: 30px;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+}
+#contact .contact-items .info > div i{
+    font-size: 20px;
+    color: #47b2e4;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e7f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+#contact .contact-items .info > div:hover i,
+#contact .contact-items .info > div i:active{
+    background: #47b2e4;
+    color: #fff;
+}
+#contact .contact-items .info  h4{
+    padding-left: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #37517e;
+}
+#contact .contact-items .info p{
+    padding: 0 0 30px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #6182ba;
+}
+/* #contact .contact-items div:nth-child(2){
+    margin-top: 3rem;
+} */
+#contact .contact-items .email-form{
+    padding: 30px;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+}
+#contact .contact-items .email-form .form-group{
+    margin-bottom: 20px;
+}
+#contact .contact-items .email-form .form-group label{
+    display: inline-block;
+    padding-bottom: 8px;
+}
+#contact .contact-items .email-form .form-control{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    /* height: 44px; */
+}
+#contact .contact-items .email-form input{
+    height: 44px;
+}
+#contact .contact-items .email-form .form-control:focus{
+    outline: none;
+    border-color: #47b2e4;
+}
+
+#contact .contact-items .email-form .text-center{
+    text-align: center;
+}
+#contact .contact-items .email-form button[type="submit"]{
+    background: #47b2e4;
+    padding: 12px 34px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+
+    transition: 0.4s;
+    border-radius: 50px;
+}
+#contact .contact-items .email-form button[type="submit"]:hover{
+    background: #209dd8;
+    cursor: pointer;
+}
+
+
+/* ================================================ 450PX BREAKING SECTION TAB ============================ */
+@media (min-width: 28.125rem){
+    #hero h1{
+        font-size: 1.7rem;
+        line-height: 36px;
+        color: #fff;
+    }
+    #hero .container .row > div img{
+        width: 80%;
+    }
+}
+/* ================================================ 480PX BREAKING SECTION TAB ============================ */
+@media (min-width: 30rem){
+    #hero .container .row > div img{
+        width: 70%;
+    }
+
+    /* CLIENTS SECTION TAB  */
+    #clients .clients-items{
+        padding: 1rem 5rem;
+    }
+    #clients .clients-items--flex > div{
+        width: 50%;
+        max-width: 9.56rem;
+    }
+}
+
+/* ================================================ 570PX BREAKING SECTION TAB ============================ */
+@media (min-width: 35.625rem){
+    .section-tab{
+        padding: 3.75rem 5rem;
+    }
+
+    /* CLIENTS SECTION TAB  */
+    #clients .clients-items{
+        padding: 1rem 7rem;
+    }
+    #clients .clients-items--flex > div{
+        width: 50%;
+        padding: 0.8rem 2rem;
+        max-width: 10.875rem;
+    }
+
+    /* WHY US SECTION TAB  */
+    #why-us .why-us--flex__col-2{
+        margin: auto;
+        }
+    #why-us .why-us--flex__col-2 img{
+        width: 100%;
+        max-width: 30rem;
+    }
+
+    /* SKILLS SECTION TAB  */
+    #skills .skills-flex--items div.skill-flex--img{
+        margin: auto;
+    }
+    #skills .skills-flex--items div.skill-flex--img img {
+        max-width: 35.375rem;
+    }
+
+    #pricing .pricing-box{
+        max-width: 26.8rem;
+        margin: 0 auto;
+    }
+}
+
+/* ================================================ 700PX BREAKING SECTION TAB ============================ */
+@media (min-width: 43.75rem){
+    #hero .container .row > div img{
+        width: 60%;
+    }
+
+    /* SERVICE SECTION TAB  */
+    #services .section-flex--items{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #services .section-flex--items > div {
+        /* margin-top: 1rem; */
+        max-width: 24.68rem;
+        /* margin: 1rem auto 0 auto; */
+        width: 50%;
+    }
+    .section-flex--items .icon-box {
+        min-height: 17rem;
+        max-height: 18rem;
+    }
+    #services .section-flex--items .mg-right{
+        margin-right: 7px;
+    }
+    #services .section-flex--items .mg-left{
+        margin-left: 7px;
+    }
+
+    /* PORTFOLIO SECTION TAB  */
+    #portfolio .portfolio-container {
+        height: 78rem;
+    }
+    #portfolio .portfolio-container {
+        position: relative;
+        margin: auto;
+    }
+    #portfolio .portfolio-container .portfolio-item {
+        width: 50%;
+        max-width: 17.25rem;
+    }
+    #portfolio .col-1{
+        position: absolute !important;
+        top: 0;
+        left: 0;
+    }
+    #portfolio .col-2{
+        position: absolute !important;
+        top: 0;
+        left: 18.75rem;
+    }
+    #portfolio .col-3{
+        position: absolute !important;
+        top: 19.75rem;
+        left: 0;
+    }
+    #portfolio .col-4{
+        position: absolute !important;
+        top: 12.75rem;
+        left: 18.75rem;
+    }
+    #portfolio .col-5{
+        position: absolute !important;
+        top: 31.75rem;
+        left: 0;
+    }
+    #portfolio .col-6{
+        position: absolute !important;
+        top: 25.75rem;
+        left: 18.75rem;
+    }
+    #portfolio .col-7{
+        position: absolute !important;
+        top: 59.75rem;
+        left: 0;
+    }
+    #portfolio .col-8{
+        position: absolute !important;
+        top: 52.75rem;
+        left: 18.75rem;
+    }
+    #portfolio .col-9{
+        position: absolute !important;
+        top: 65.75rem;
+        left: 18.75rem;
+    }
+    #portfolio .col-1,
+    #portfolio .col-3,
+    #portfolio .col-5,
+    #portfolio .col-7{
+        margin-right: 0.8rem;
+        max-width: 17.5rem;
+    }
+    #portfolio .col-2,
+    #portfolio .col-4,
+    #portfolio .col-6,
+    #portfolio .col-8,
+    #portfolio .col-9{
+        margin-left: 0.8rem;
+        max-width: 17.5rem;
+    }
+
+    /* TEAM SECTION TAB  */
+    #team .team-section .team-flex .team-flex--items {
+        max-width: 37.9rem;
+        margin: auto;
+    }
+}
+
+/* ================================================ 750PX BREAKING SECTION TAB ============================ */
+@media (min-width: 46.875rem){
+    #clients .clients-items--flex{
+        justify-content: space-around;
+    }
+}
+
+/* ================================================ 830PX BREAKING SECTION TAB ============================ */
+@media (min-width: 51.875rem){
+    #hero .container .row{
+        padding: 1rem 0.8rem 0rem 0.8rem;
+    }
+
+    #clients .clients-items{
+        width: 100%;
+        padding: 3rem;
+    }
+
+    #clients .clients-items--flex > div{
+        width: 33.3%;
+        padding: 0.8rem 4rem;
+        max-width: 15.375rem;
+    }
+    
+    #cta{
+        padding: 120px 24px;
+    }
+
+    #portfolio .portfolio-container {
+        position: relative;
+        margin: 0 3rem 0 4rem;
+    }
+
+    
+}
+
+/* ================================================ 1000PX BREAKING SECTION TAB ============================ */
+@media (min-width: 62.5rem){
+    .section-tab{
+        padding: 3.75rem 4rem;
+    }
+    #hero{
+        width: 100%;
+        height: 80vh;
+        background: #37517e;
+    }
+    #hero .container .row{
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+    }
+    #hero h1{
+        font-size: 2.9rem;
+        font-weight: 700;
+        line-height: 58px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    #hero h2{
+        color: #A7A8BE;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+    .section-tab .container .info-col{
+        text-align: left;
+        vertical-align: bottom;
+        width: 50%;
+    }
+    .section-tab .container .img-col{
+        width: 45%;
+        overflow: hidden;
+    }
+    #hero .container .row > div img{
+        width: 100%;
+        animation: up-down 5s infinite linear alternate;
+    }
+    .getstarted-tab {
+        justify-content: start;
+    }
+    /* Clients Section Tab */
+    
+    .clients-section .clients-items--flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #clients .clients-items {
+        width: 100%;
+        padding: 1rem 5rem;
+    }
+    #clients .clients-items--flex > div {
+        width: 16.6%;
+        padding: 0.8rem 2.8rem;
+        max-width: 10rem;
+    }
+    .clients-section .clients-items--flex div img{
+        width: 100%;
+    } 
+    /* About Section Tab */
+    .section-title{
+        text-align: center;
+        padding: 1.875rem;
+    }
+ 
+    .about-section--tab .about-flex--items{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+   
+    #about .about-flex--items .about-first--row,
+    #about .about-flex--items .about-second--row{
+        display: block;
+        width: 50%;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    #about .about-flex--items .about-first--row{
+        padding-right: 0.875rem;
+    }
+    #about .about-flex--items .about-second--row{
+        padding-left: 0.875rem;
+    }
+   
+
+    /* WHY US TAB */
+    #why-us{
+        background: #F3F5FA;
+    }
+    #why-us .why-us--flex__items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #why-us .why-us--flex__items .why-us--flex__col-1{
+        width: 55%;
+    }
+    #why-us .why-us--flex__col-1{
+        padding-right: 1rem;
+    }
+    #why-us .why-us--flex__col-1 h3{
+        font-size: 2.125rem;
+        font-weight: 400;
+        color: #37517e;
+        padding-right: 5rem;
+    }
+    #why-us .why-us--flex__col-1 .content-info p{
+        font-size: 0.9rem;
+        line-height: 1.5;
+        color: #848484;
+        margin-bottom: 1rem;
+        padding-right: 3rem;
+    }
+    #why-us .why-us--flex__col-1 .content-items ul{
+        list-style: none;
+        margin: 0;
+        padding: 0%;
+    }
+    #why-us .why-us--flex__col-1 .content-items ul li{
+        background: #fff;
+        padding: 1.25rem;
+        border-radius: 4px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    #why-us .why-us--flex__col-1 .content-items ul li:not(:first-child){
+        margin-top: 0.9375rem;
+    }
+    #why-us .why-us--flex__col-1 .content-items ul li a{
+        color: inherit;
+        font-size: 1.295rem;
+        line-height: 1.5;
+    }
+    #why-us .why-us--flex__col-1 .content-items ul li a:hover,
+    #why-us .why-us--flex__col-1 .content-items ul li a:active{
+        color: #47b2e4;
+        cursor: pointer;
+    }
+    #why-us .why-us--flex__col-1 .content-items ul li .btn-number{
+        color: #47b2e4;
+        font-size: 1.125rem; 
+        font-weight: 600;
+        padding-right: 0.625rem;
+    }
+    #why-us .why-us--flex__col-1 .content-items ul li div p{
+        line-height: 1.5;
+    }
+    #why-us .why-us--flex__col-2{
+    width: 45%;
+    }
+    #why-us .why-us--flex__col-2 img{
+        width: 100%;
+    }
+
+    /* SKILLS SECTION TAB  */
+    #skills .skills-items .skills-flex--items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #skills .skills-flex--items > div{
+        width: 50%;
+    }
+    #skills .skills-flex--items div:first-child img{
+        width: 100%;
+    }
+    #skills .skills-flex--items .skill-flex--img{
+        padding-right: 1rem;
+    }
+    #skills .skills-flex--items .skills-flex--progresschats{
+        padding-left: 1rem;
+    }
+    /*#skills .skills-flex--items div:nth-child(2) h3{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+        color: #37517e;
+        margin-bottom: 0.825rem;
+    }
+    #skills .skills-flex--items div:nth-child(2) p{
+        font-size: 0.98rem;
+        line-height: 1.5;
+        font-style: italic;
+        margin-bottom: 1rem;
+    }
+     #skills .progress-items .progress{
+        height: 60px;
+        display: block;
+    }
+    #skills .progress-items .skill{
+        font-size: 1rem;
+        font-weight: bold;
+        color: #37517e;
+        display: block;
+        width: 100%;
+        margin-bottom: 6px;
+    } */
+    /*#skills .progress-items .skill .val{
+        float: right;
+        font-style: normal;
+    }
+     #skills .skills-flex--items div.progress-bar-wrap{
+        width: 100%;
+        height: 10px;
+        background: #e8edf5;
+    }
+    #skills .skills-flex--items div.progress-bar-wrap .progress-bar{
+        height: 10px;
+        background: #4668a2;
+    }
+    #skills .skills-flex--items div.progress-bar-wrap .progress-bar--100{
+        width: 100%;
+    }
+    #skills .skills-flex--items div.progress-bar-wrap .progress-bar--90{
+        width: 90%;
+    }
+    #skills .skills-flex--items div.progress-bar-wrap .progress-bar--75{
+        width: 75%;
+    }
+    #skills .skills-flex--items div.progress-bar-wrap .progress-bar--55{
+        width: 55%;
+    } */
+
+    /* SERVICE SECTION TAB  */
+    #services{
+        background: #F3F5FA;
+    }
+    #services .section-flex--items{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #services .section-flex--items > div{
+        width: 25%;
+        padding: 0 0.6875rem;
+    }
+    #services .section-flex--items > div p{
+        margin: 0;
+    }
+    .section-flex--items .icon-box{
+        padding: 3.125rem 1.875rem;
+        background: #fff;
+        box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1); 
+    }
+    .icon{
+        height: 2.5rem;
+        margin-bottom: 0.625rem;
+    }
+    .section-flex--items .icon-box a,
+    .section-flex--items .icon-box h4{
+        color: #37517e;
+        display: block;
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0.9375rem;
+    }
+    .section-flex--items .icon-box p{
+        line-height: 24px;
+        font-size: 0.875rem;
+    }
+
+    /* CTA SECTION TAB  */
+    #cta .cta-flex--items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    #cta .cta-flex--items .cta-flex--items__info{
+        width: 70%;
+    }
+    #cta .cta-flex--items .cta-flex--items__info h3,
+    #cta .cta-flex--items .cta-flex--items__info p{
+        text-align: left;
+    }
+
+     /* PORTFOLIO SECTION TAB  */
+     #portfolio .portfolio-container {
+        height: 59rem;
+    }
+     #portfolio .portfolio-container {
+        position: relative;
+        margin: auto;
+    }
+    #portfolio .portfolio-container .portfolio-item {
+        width: 33.3%;
+        max-width: 21.25rem;
+    }
+    #portfolio .col-1{
+        position: absolute !important;
+        top: 0;
+        left: 0;
+    }
+    #portfolio .col-2{
+        position: absolute !important;
+        top: 0;
+        left: 35%;
+    }
+    #portfolio .col-3{
+        position: absolute !important;
+        top: 0;
+        left: 70%;
+    }
+    #portfolio .col-4{
+        position: absolute !important;
+        top: 25%;
+        left: 70%;
+    }
+    #portfolio .col-5{
+        position: absolute !important;
+        top: 42%;
+        left: 0;
+    }
+    #portfolio .col-6{
+        position: absolute !important;
+        top: 25%;
+        left: 35%;
+    }
+    #portfolio .col-7{
+        position: absolute !important;
+        top: 52%;
+        left: 70%;
+    }
+    #portfolio .col-8{
+        position: absolute !important;
+        top: 78%;
+        left: 70%;
+    }
+    #portfolio .col-9{
+        position: absolute !important;
+        top: 80%;
+        left: 35%;
+    }
+    #portfolio .col-1,
+    #portfolio .col-3,
+    #portfolio .col-5,
+    #portfolio .col-7{
+        margin-right: 0;
+        max-width: 17.5rem;
+    }
+    #portfolio .col-2,
+    #portfolio .col-4,
+    #portfolio .col-6,
+    #portfolio .col-8,
+    #portfolio .col-9{
+        margin-left: 0;
+        max-width: 17.5rem;
+    }
+
+    /* TEAM SECTION TAB  */
+    #team .team-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #team .team-section .team-flex .team-flex--items {
+        max-width: 37.9rem;
+        width: 50%;
+    }
+    #team .team-section .team-flex > div:not(:first-child) {
+    margin-top: 0px;
+    }
+    .margin-right{
+        margin-right: 0.8rem;
+    }
+    .margin-left{
+        margin-left: 0.8rem;
+    }
+    #team .team-section .team-flex > div:not(:first-child) {
+        margin-top: 0px;
+        }
+    .margin-top{
+        margin-top: 0.8rem;
+    }
+    .margin-bottom{
+        margin-bottom: 0.8rem;
+    }
+
+    /* PRICING SECTION TAB  */
+    #pricing .pricing-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #pricing .pricing-box {
+        max-width: 100%;
+        margin: 0 auto;
+        width: 30%;
+    }
+    #pricing .pricing-section .pricing-box .box {
+        margin: 0 0px 0px 0px;
+        padding: 60px 40px;
+        box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+        border-radius: 5px;
+    }
+    .box-m{
+        margin: 0 1rem;
+    }
+
+    /* FAQ SECTION TAB  */
+    #faq .section-title p{
+        padding-bottom: 0;
+    }
+    #faq .content-items ul li{
+        margin: 0.9375rem auto;
+    }
+
+    /* CONTACT SECTION TAB  */
+    #contact .contact-items{
+        display: flex;
+        justify-content: center;
+    }
+    #contact .align-items--stretch:first-child{
+        width: 40%;
+        margin-right: 1rem;
+    }
+    #contact .align-items--stretch:nth-child(2){
+        width: 55%;
+        margin-left: 1rem;
+    }
+
+    #contact .contact-items .info {
+       min-height: 100%;
+    }
+    .newsletter-container .justify-content-center{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.open-portfolio{
+    /* opacity: 1 !important; */
+    display: block !important;
+    /* transition: all 1s ease-in-out; */
+}
+.slide-up{
+    transition: all 0.4s ease-in-out;
+}
+.slide-up:hover{
+    transition: all 0.4s;
+    transform: translatey(-1rem);
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(5%);
+    }
+    35%{
+        transform: translateY(0%);
+    }
+   70%{
+        transform: translateY(5%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+@keyframes zoom-in{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        filter: blur(20%);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
